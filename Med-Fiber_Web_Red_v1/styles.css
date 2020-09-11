@@ -1,0 +1,158 @@
+﻿/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	color: #666666;
+}
+
+a{
+    color: #9a0606;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+    font-weight:bold;
+}
+
+body {
+	background-position: top;
+	background-repeat: repeat;
+	background-color: #530000;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #383838;
+	padding-top: 45px;
+}
+
+#content{
+    margin: 0 auto;
+    width: 824px;
+    text-align: left;
+    background: #ffffff;
+    padding-top: 5px;
+}
+
+#main{
+    width: 812px;
+    margin: 0 auto;
+    clear:both;
+    background:url(images/main_top.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #eeeeee;
+    padding-top: 5px;
+}
+
+#header {
+    height: 193px;
+    width: 824px;
+    background: url(images/header.jpg) no-repeat top;
+    margin: 0 auto;
+}
+
+#logo {
+    height: 193px;
+    text-align: left;
+    width: 724px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+
+
+#menu
+{
+    width: 824px;
+    height: 57px;
+    margin: 0 auto;
+    background: url(images/menubg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+#menu ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#menu li {
+
+    display: inline;
+
+}
+
+#menu a {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    float: left;
+    width: 19%;
+    height: 41px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+    padding-top: 18px;
+
+}
+
+#menu a:hover{
+    color: #000000;
+    background:url(images/menu_hov.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#left
+{
+    width: 477px;
+    padding-left: 10px;
+}
+
+.text{
+	padding-bottom: 10px;
+	padding-top: 5px;
+	color: #666666;
+}
+
+#left H1{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	color: #666666;
+	padding-top: 5px;
+	border-bottom: 1px dotted #9a0606;
+}
+
+.col1, .col2, .col3, .col
+align: center;
+    float: left;
+}
+
+#right{
+    width: 258px;
+    float:right;
+    margin-right: 12px;
+    padding-top: 5px;
+}
+
+#conbot{
+    background:url(images/con_bot.jpg);
+    clear:both;
+    height: 17px;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:bold;
+}
